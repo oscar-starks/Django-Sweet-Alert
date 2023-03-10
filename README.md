@@ -2,9 +2,11 @@
 This is a simple project on how to send your django messages to the frontend using sweetalert.js
 
 First, you import the django messages module in your views.py file like this:
+
 ![image](https://user-images.githubusercontent.com/93172841/224373416-ae43a5fc-c9a3-4bce-a28d-411657c85186.png)
 
-After that, in your view, you specify the kind of message you want to send. The method takes two arguments, request and the message. 
+After that, in your view, you specify the kind of message you want to send. The method takes two arguments, request and the message.
+
 ![image](https://user-images.githubusercontent.com/93172841/224373773-0fe91f22-1102-4c65-a1f2-062f5416f697.png)
 
 You can also specify the type of message you want, whether it's info, message, warning, error, etc. You could look through the messages docs for more using this link:
